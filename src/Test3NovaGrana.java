@@ -6,5 +6,12 @@ public class Test3NovaGrana {
             i++;
         }
         System.out.println("Ispis brojeva od 1 do 10 while petljom");
+
+        while (i>1){
+            --i;
+            System.out.println(i);
+        }
+        System.out.println("Ispis brojeva od 10 d0 1 while petljom");
     }
+
 }
